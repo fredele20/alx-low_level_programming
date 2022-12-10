@@ -16,7 +16,6 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++) 
 	{
-
 		if (low == 'e' || low == 'q')
 			continue;
 
