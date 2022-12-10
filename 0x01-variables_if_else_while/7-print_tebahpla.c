@@ -14,7 +14,7 @@ int main(void)
 
 	char alp;
 
-	for (alp = 'z' alp >= 'a'; low--)
+	for (alp = 'z'; alp >= 'a'; low--)
 		putchar(alp);
 	putchar('\n');
 
