@@ -18,6 +18,7 @@ int main(void)
 	{
 		if (low == 'e' || low == 'q')
 			continue;
+	
 		putchar(low);
 	}
 	putchar('\n');
