@@ -33,8 +33,6 @@ int main(void)
 
 					if (k == '9' && l == '9')
 						continue;
-					putchar(',');
-					putchar(' ');
 				}
 			}
 			putchar(',');
