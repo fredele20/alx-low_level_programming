@@ -18,20 +18,23 @@ int main(void)
 	{
 		for (j = i; j <= '8'; j++)
 		{
+			putchar(i);
+			putchar(j);
+
+			if (i == '9' && j == '8')
+				continue;
+			putchar(' ');
+
 			for (k = i; k <= '9'; k++)
 			{
 				for (l = i + 1; l <= '9'; l++)
 				{
-					putchar(i);
-					putchar(j);
 					putchar(k);
 					putchar(l);
 
-					if (i == '9' && j == '8')
-						continue;
 					if (k == '9' && l == '9')
 						continue;
-					putchar('.');
+					putchar(',');
 					putchar(' ');
 				}
 			}
