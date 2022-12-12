@@ -18,9 +18,6 @@ int main(void)
 	{
 		for (j = i; j <= '8'; j++)
 		{
-			putchar(i);
-			putchar(j);
-
 			if (i == '9' && j == '8')
 				continue;
 
