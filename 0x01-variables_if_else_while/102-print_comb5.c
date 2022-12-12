@@ -23,12 +23,14 @@ int main(void)
 
 			if (i == '9' && j == '8')
 				continue;
-			putchar(' ');
 
 			for (k = i; k <= '9'; k++)
 			{
 				for (l = i + 1; l <= '9'; l++)
 				{
+					putchar(i);
+					putchar(j);
+					putchar(' ');
 					putchar(k);
 					putchar(l);
 
