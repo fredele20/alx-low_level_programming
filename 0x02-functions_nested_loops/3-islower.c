@@ -3,7 +3,7 @@
 /**
  * _islower - check for lowercase characters
  *
- * Return
+ * Return: always 0 (Success)
  *
  */
 
