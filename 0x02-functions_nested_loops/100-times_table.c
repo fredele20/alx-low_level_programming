@@ -3,11 +3,7 @@
 /**
  * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
- * Return: Nothing
- */
-
-
-/**
+ *
  * putformat - formats the characters to output
  *
  * @n: integer value
