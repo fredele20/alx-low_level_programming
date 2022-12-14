@@ -5,6 +5,9 @@
  * @n: An input integer value
  * Return: Nothing
  */
+
+void putformat(int);
+
 void print_times_table(int n)
 {
 	int i, j;
