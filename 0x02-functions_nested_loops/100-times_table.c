@@ -6,7 +6,15 @@
  * Return: Nothing
  */
 
-void putformat(int);
+
+/**
+ * putformat - formats the characters to output
+ *
+ * @n: integer value
+ *
+ * Return: always 0
+ */
+void putformat(int n);
 
 void print_times_table(int n)
 {
@@ -25,9 +33,13 @@ void print_times_table(int n)
 }
 
 /**
- * putformat - formatted characters to output
- * Return: nothing
+ * putformat - formats the characters to output
+ *
+ * @n: integer value
+ *
+ * Return: always 0
  */
+
 void putformat(int n)
 {
 	if (n <= 9)
