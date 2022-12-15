@@ -11,7 +11,7 @@
 int main(void)
 {
 
-	long int num1 = 1, num2 = 2, i, num3;
+	unsigned long int num1 = 1, num2 = 2, i, num3;
 
 	printf("%lu, %lu, ", num1, num2);
 
