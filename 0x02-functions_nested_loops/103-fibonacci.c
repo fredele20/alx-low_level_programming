@@ -10,19 +10,19 @@
 int main(void)
 {
 
-	long int i, num1 = 1, num2 = 2, limit = 0, sum = 0;
+	int i;
+	long int fibonacci[50], sum = 2;
 
-	for (i = 2; limit <= 4000000; i++)
+	fibonacci[0] = 1;
+	fibonacci[1] = 2;
+
+	for (i = 2; i < 50; i++)
 	{
-		limit = num1 + num2;
-		if (i % 2 == 0)
-			sum = i + sum;
-
-		num1 = num2;
-		num2 = limit;
+		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 4000000)
+			sum += fibonacci[i];
 	}
-
-	printf("%ld \n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 
