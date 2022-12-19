@@ -13,7 +13,7 @@ void print_prev(char *s)
 
 	int i = 0;
 
-	while (s[i] - 1 != '\0')
+	while (s[i] != '\0')
 		i++;
 
 	while (i)
