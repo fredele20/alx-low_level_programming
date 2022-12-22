@@ -13,8 +13,16 @@
 char *_strcat(char *dest, char *src)
 {
 
-	char *concat = _putchar(&dest, ' ', &src);
+	char *temp = dest;
 
-	return (concat);
+	while (*dest)
+		dest++;
+
+	while (*src)
+		*dest++ = *src++;
+
+	
+	*dest = '\0';
+	return (temp);
 
 }
